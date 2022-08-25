@@ -1,0 +1,748 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local OutLine = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local Hubs = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local HubsTab = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local VHUB = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
+local LXHUB = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local PROHUB = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local FIREXHUB = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local SUSHIHUB = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local MOONUIHUB = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local DOMAINXHUB = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local GHOSTHUB = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local ICEHUBFORBH = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local ScriptsTab = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local FeAmongUs = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+local FEWingedMaster = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local FEHatsPet = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local FEHumanCar = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local FESnake = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local FEFly = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local FEHoldAcc = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local HatsV2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Keyboard = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local AdminTab = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_31 = Instance.new("UICorner")
+local FatesAdmin = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
+local RevisAdmin = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local CreditsTab = Instance.new("Frame")
+local Credits_2 = Instance.new("TextLabel")
+local UICorner_36 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_38 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_39 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_40 = Instance.new("UICorner")
+local HomeTab = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_41 = Instance.new("UICorner")
+local UICorner_42 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UICorner_43 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local UICorner_44 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_45 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Main.Position = UDim2.new(0.181409299, 0, 0.146666661, 0)
+Main.Size = UDim2.new(0, 424, 0, 264)
+Main.Active = true
+Main.Draggable = true
+
+UICorner.Parent = Main
+
+OutLine.Name = "OutLine"
+OutLine.Parent = Main
+OutLine.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+OutLine.Position = UDim2.new(0.0353773609, 0, 0.0454545468, 0)
+OutLine.Size = UDim2.new(0, 393, 0, 238)
+
+TextLabel.Parent = OutLine
+TextLabel.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(0, 0, -0.0504201688, 0)
+TextLabel.Size = UDim2.new(0, 96, 0, 256)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = " "
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+UICorner_2.Parent = TextLabel
+
+Scripts.Name = "Scripts"
+Scripts.Parent = OutLine
+Scripts.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Scripts.Position = UDim2.new(0, 0, 0.0504201725, 0)
+Scripts.Size = UDim2.new(0, 83, 0, 24)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+Scripts.MouseButton1Down:Connect(function()
+	ScriptsTab.Visible = true
+	HomeTab.Visible = false
+	CreditsTab.Visible = false
+	AdminTab.Visible = false
+	HubsTab.Visible = false
+end)
+
+UICorner_3.Parent = Scripts
+
+UICorner_4.Parent = OutLine
+
+Hubs.Name = "Hubs"
+Hubs.Parent = OutLine
+Hubs.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Hubs.Position = UDim2.new(0, 0, 0.189075649, 0)
+Hubs.Size = UDim2.new(0, 83, 0, 24)
+Hubs.Font = Enum.Font.SourceSans
+Hubs.Text = "Hubs"
+Hubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hubs.TextSize = 14.000
+Hubs.MouseButton1Down:Connect(function()
+	HubsTab.Visible = true
+	ScriptsTab.Visible = false
+	CreditsTab.Visible = false
+	AdminTab.Visible = false
+	HomeTab.Visible = false
+end)
+
+UICorner_5.Parent = Hubs
+
+Admin.Name = "Admin"
+Admin.Parent = OutLine
+Admin.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Admin.Position = UDim2.new(0, 0, 0.327731133, 0)
+Admin.Size = UDim2.new(0, 83, 0, 24)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = "Admin"
+Admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admin.TextSize = 14.000
+Admin.MouseButton1Down:Connect(function()
+	ScriptsTab.Visible = false
+	HomeTab.Visible = false
+	CreditsTab.Visible = false
+	AdminTab.Visible = true
+	HubsTab.Visible = false
+end)
+
+UICorner_6.Parent = Admin
+
+Credits.Name = "Credits"
+Credits.Parent = OutLine
+Credits.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Credits.Position = UDim2.new(0, 0, 0.899159729, 0)
+Credits.Size = UDim2.new(0, 83, 0, 24)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 14.000
+Credits.MouseButton1Down:Connect(function()
+	ScriptsTab.Visible = false
+	HomeTab.Visible = false
+	CreditsTab.Visible = true
+	AdminTab.Visible = false
+	HubsTab.Visible = false
+end)
+
+UICorner_7.Parent = Credits
+
+Home.Name = "Home"
+Home.Parent = OutLine
+Home.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Home.Position = UDim2.new(0, 0, 0.768907607, 0)
+Home.Size = UDim2.new(0, 83, 0, 24)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 14.000
+Home.MouseButton1Down:Connect(function()
+	ScriptsTab.Visible = false
+	HomeTab.Visible = true
+	CreditsTab.Visible = false
+	AdminTab.Visible = false
+	HubsTab.Visible = false
+end)
+UICorner_8.Parent = Home
+
+HubsTab.Name = "HubsTab"
+HubsTab.Parent = OutLine
+HubsTab.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+HubsTab.Position = UDim2.new(0.24427481, 0, 0.00420168089, 0)
+HubsTab.Size = UDim2.new(0, 297, 0, 237)
+HubsTab.Visible = false
+
+TextLabel_2.Parent = HubsTab
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 297, 0, 35)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Hubs"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 25.000
+
+UICorner_9.Parent = TextLabel_2
+
+VHUB.Name = "VHUB"
+VHUB.Parent = HubsTab
+VHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+VHUB.Position = UDim2.new(0.0303030312, 0, 0.185654014, 0)
+VHUB.Size = UDim2.new(0, 106, 0, 24)
+VHUB.Font = Enum.Font.SourceSans
+VHUB.Text = "VHUB"
+VHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+VHUB.TextSize = 14.000
+VHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+end)
+
+UICorner_10.Parent = VHUB
+
+UICorner_11.Parent = HubsTab
+
+LXHUB.Name = "LX HUB"
+LXHUB.Parent = HubsTab
+LXHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+LXHUB.Position = UDim2.new(0.585858583, 0, 0.185654014, 0)
+LXHUB.Size = UDim2.new(0, 106, 0, 24)
+LXHUB.Font = Enum.Font.SourceSans
+LXHUB.Text = "LX HUB"
+LXHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+LXHUB.TextSize = 14.000
+LXHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
+end)
+
+UICorner_12.Parent = LXHUB
+
+PROHUB.Name = "PRO HUB"
+PROHUB.Parent = HubsTab
+PROHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+PROHUB.Position = UDim2.new(0.0303030312, 0, 0.350210965, 0)
+PROHUB.Size = UDim2.new(0, 106, 0, 24)
+PROHUB.Font = Enum.Font.SourceSans
+PROHUB.Text = "PRO HUB"
+PROHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+PROHUB.TextSize = 14.000
+PROHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kindasua/v.1-beta/main/Fixed%20bugs%20v.1%20beta"), true))()
+end)
+
+UICorner_13.Parent = PROHUB
+
+FIREXHUB.Name = "FIRE X HUB"
+FIREXHUB.Parent = HubsTab
+FIREXHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FIREXHUB.Position = UDim2.new(0.585858583, 0, 0.350210965, 0)
+FIREXHUB.Size = UDim2.new(0, 106, 0, 24)
+FIREXHUB.Font = Enum.Font.SourceSans
+FIREXHUB.Text = "FIRE X HUB"
+FIREXHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+FIREXHUB.TextSize = 14.000
+FIREXHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+
+UICorner_14.Parent = FIREXHUB
+
+SUSHIHUB.Name = "SUSHI HUB"
+SUSHIHUB.Parent = HubsTab
+SUSHIHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+SUSHIHUB.Position = UDim2.new(0.585858583, 0, 0.514767945, 0)
+SUSHIHUB.Size = UDim2.new(0, 106, 0, 24)
+SUSHIHUB.Font = Enum.Font.SourceSans
+SUSHIHUB.Text = "SUSHI HUB"
+SUSHIHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+SUSHIHUB.TextSize = 14.000
+SUSHIHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://paste.ee/r/bf5oO", true))()
+end)
+
+UICorner_15.Parent = SUSHIHUB
+
+MOONUIHUB.Name = "MOONUI HUB"
+MOONUIHUB.Parent = HubsTab
+MOONUIHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+MOONUIHUB.Position = UDim2.new(0.0303030014, 0, 0.514767945, 0)
+MOONUIHUB.Size = UDim2.new(0, 106, 0, 24)
+MOONUIHUB.Font = Enum.Font.SourceSans
+MOONUIHUB.Text = "MOONUI HUB"
+MOONUIHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+MOONUIHUB.TextSize = 14.000
+MOONUIHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+UICorner_16.Parent = MOONUIHUB
+
+DOMAINXHUB.Name = "DOMAINX HUB"
+DOMAINXHUB.Parent = HubsTab
+DOMAINXHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+DOMAINXHUB.Position = UDim2.new(0.0303030014, 0, 0.666666687, 0)
+DOMAINXHUB.Size = UDim2.new(0, 106, 0, 24)
+DOMAINXHUB.Font = Enum.Font.SourceSans
+DOMAINXHUB.Text = "DOMAINX HUB"
+DOMAINXHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+DOMAINXHUB.TextSize = 14.000
+DOMAINXHUB.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+end)
+
+UICorner_17.Parent = DOMAINXHUB
+
+GHOSTHUB.Name = "GHOST HUB"
+GHOSTHUB.Parent = HubsTab
+GHOSTHUB.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+GHOSTHUB.Position = UDim2.new(0.585858583, 0, 0.666666687, 0)
+GHOSTHUB.Size = UDim2.new(0, 106, 0, 24)
+GHOSTHUB.Font = Enum.Font.SourceSans
+GHOSTHUB.Text = "GHOST HUB"
+GHOSTHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+GHOSTHUB.TextSize = 14.000
+GHOSTHUB.MouseButton1Down:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\80\117\118\112\49\100\119\78\39\41\41\40\41\10")()
+end)
+
+UICorner_18.Parent = GHOSTHUB
+
+ICEHUBFORBH.Name = "ICE HUB FOR BH"
+ICEHUBFORBH.Parent = HubsTab
+ICEHUBFORBH.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+ICEHUBFORBH.Position = UDim2.new(0.0303030312, 0, 0.822784841, 0)
+ICEHUBFORBH.Size = UDim2.new(0, 271, 0, 24)
+ICEHUBFORBH.Font = Enum.Font.SourceSans
+ICEHUBFORBH.Text = "ICE HUB FOR BH"
+ICEHUBFORBH.TextColor3 = Color3.fromRGB(0, 0, 0)
+ICEHUBFORBH.TextSize = 14.000
+ICEHUBFORBH.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+UICorner_19.Parent = ICEHUBFORBH
+
+ScriptsTab.Name = "ScriptsTab"
+ScriptsTab.Parent = OutLine
+ScriptsTab.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+ScriptsTab.Position = UDim2.new(0.24427481, 0, 0.00420168089, 0)
+ScriptsTab.Size = UDim2.new(0, 297, 0, 237)
+ScriptsTab.Visible = false
+
+TextLabel_3.Parent = ScriptsTab
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 297, 0, 35)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Scripts"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 25.000
+
+UICorner_20.Parent = TextLabel_3
+
+FeAmongUs.Name = "Fe Among Us"
+FeAmongUs.Parent = ScriptsTab
+FeAmongUs.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FeAmongUs.Position = UDim2.new(0.0303030312, 0, 0.185654014, 0)
+FeAmongUs.Size = UDim2.new(0, 106, 0, 24)
+FeAmongUs.Font = Enum.Font.SourceSans
+FeAmongUs.Text = "Fe Among Us"
+FeAmongUs.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeAmongUs.TextSize = 14.000
+FeAmongUs.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/13Lsv9PQ"))()
+end)
+
+UICorner_21.Parent = FeAmongUs
+
+UICorner_22.Parent = ScriptsTab
+
+FEWingedMaster.Name = "FE Winged Master"
+FEWingedMaster.Parent = ScriptsTab
+FEWingedMaster.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FEWingedMaster.Position = UDim2.new(0.585858583, 0, 0.185654014, 0)
+FEWingedMaster.Size = UDim2.new(0, 106, 0, 24)
+FEWingedMaster.Font = Enum.Font.SourceSans
+FEWingedMaster.Text = "FE Winged Master"
+FEWingedMaster.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEWingedMaster.TextSize = 14.000
+FEWingedMaster.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8bBBHR7D"))()
+end)
+
+UICorner_23.Parent = FEWingedMaster
+
+FEHatsPet.Name = "FE Hats Pet"
+FEHatsPet.Parent = ScriptsTab
+FEHatsPet.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FEHatsPet.Position = UDim2.new(0.0303030312, 0, 0.350210965, 0)
+FEHatsPet.Size = UDim2.new(0, 106, 0, 24)
+FEHatsPet.Font = Enum.Font.SourceSans
+FEHatsPet.Text = "FE Hats Pet"
+FEHatsPet.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEHatsPet.TextSize = 14.000
+FEHatsPet.MouseButton1Down:Connect(function()
+	loadstring("\10\45\45\45\32\121\111\117\32\115\116\117\112\105\100\10\10\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\83\116\97\114\116\101\114\71\117\105\34\41\58\83\101\116\67\111\114\101\40\34\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110\34\44\123\10\32\32\32\32\84\105\116\108\101\32\61\32\34\73\109\32\80\97\116\114\105\99\107\34\59\10\32\32\32\32\84\101\120\116\32\61\32\34\78\101\116\108\101\115\115\32\108\111\97\100\101\100\34\59\10\32\32\32\32\68\117\114\97\116\105\111\110\32\61\32\49\48\59\10\125\41\10\10\102\111\114\32\105\44\118\32\105\110\32\110\101\120\116\44\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\46\67\104\97\114\97\99\116\101\114\58\71\101\116\68\101\115\99\101\110\100\97\110\116\115\40\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\66\97\115\101\80\97\114\116\34\41\32\97\110\100\32\118\46\78\97\109\101\32\126\61\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\32\116\104\101\110\32\10\32\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\117\110\83\101\114\118\105\99\101\34\41\46\72\101\97\114\116\98\101\97\116\58\99\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\118\46\86\101\108\111\99\105\116\121\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\45\51\48\44\48\44\48\41\10\32\32\32\32\101\110\100\41\10\32\32\32\32\101\110\100\10\32\32\32\32\101\110\100\10\10\32\32\32\32\108\111\99\97\108\32\112\108\114\32\61\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\10\32\32\32\32\108\111\99\97\108\32\99\104\97\114\32\61\32\112\108\114\46\67\104\97\114\97\99\116\101\114\10\10\108\111\99\97\108\32\108\112\32\61\32\103\97\109\101\46\80\108\97\121\101\114\115\46\76\111\99\97\108\80\108\97\121\101\114\10\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\99\104\97\114\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\66\97\108\108\83\111\99\107\101\116\67\111\110\115\116\114\97\105\110\116\34\41\32\116\104\101\110\10\32\32\32\32\32\32\32\32\118\58\68\101\115\116\114\111\121\40\41\10\32\32\32\32\101\110\100\10\101\110\100\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\99\104\97\114\58\71\101\116\67\104\105\108\100\114\101\110\40\41\41\32\100\111\10\32\32\32\32\105\102\32\118\58\73\115\65\40\34\72\105\110\103\101\67\111\110\115\116\114\97\105\110\116\34\41\32\116\104\101\110\10\32\32\32\32\32\32\32\32\118\58\68\101\115\116\114\111\121\40\41\10\32\32\32\32\101\110\100\10\101\110\100\10\10\102\111\114\32\105\44\32\118\32\105\110\32\112\97\105\114\115\40\99\104\97\114\46\72\117\109\97\110\111\105\100\58\71\101\116\65\99\99\101\115\115\111\114\105\101\115\40\41\41\32\100\111\10\108\111\99\97\108\32\104\97\116\32\61\32\118\46\78\97\109\101\10\10\99\104\97\114\91\104\97\116\93\46\65\114\99\104\105\118\97\98\108\101\32\61\32\116\114\117\101\10\108\111\99\97\108\32\102\97\107\101\32\61\32\99\104\97\114\91\104\97\116\93\58\67\108\111\110\101\40\41\10\102\97\107\101\46\80\97\114\101\110\116\32\61\32\99\104\97\114\10\102\97\107\101\46\72\97\110\100\108\101\46\84\114\97\110\115\112\97\114\101\110\99\121\32\61\32\49\10\10\10\10\10\32\32\32\32\108\111\99\97\108\32\99\97\114\32\61\32\99\104\97\114\91\104\97\116\93\10\10\10\10\32\32\32\32\108\111\99\97\108\32\97\116\116\49\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\116\116\97\99\104\109\101\110\116\34\44\99\97\114\46\72\97\110\100\108\101\41\10\10\32\32\32\32\108\111\99\97\108\32\97\112\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\80\111\115\105\116\105\111\110\34\44\99\97\114\46\72\97\110\100\108\101\41\10\32\32\32\32\97\112\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\97\116\116\49\10\32\32\32\32\97\112\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\97\116\116\49\10\32\32\32\32\97\112\46\82\105\103\105\100\105\116\121\69\110\97\98\108\101\100\32\61\32\116\114\117\101\32\10\10\10\32\32\32\32\108\111\99\97\108\32\97\111\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\65\108\105\103\110\79\114\105\101\110\116\97\116\105\111\110\34\44\99\97\114\46\72\97\110\100\108\101\41\32\10\32\32\32\32\97\111\46\65\116\116\97\99\104\109\101\110\116\48\32\61\32\97\116\116\49\10\32\32\32\32\97\111\46\65\116\116\97\99\104\109\101\110\116\49\32\61\32\97\116\116\49\10\32\32\32\32\97\111\46\82\105\103\105\100\105\116\121\69\110\97\98\108\101\100\32\61\32\116\114\117\101\10\32\32\32\32\10\32\32\32\32\99\97\114\46\72\97\110\100\108\101\46\65\99\99\101\115\115\111\114\121\87\101\108\100\58\68\101\115\116\114\111\121\40\41\10\10\32\32\32\32\32\32\32\32\108\111\99\97\108\32\66\80\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\66\111\100\121\80\111\115\105\116\105\111\110\34\44\32\99\97\114\46\72\97\110\100\108\101\41\10\32\32\32\32\32\32\32\32\108\111\99\97\108\32\66\71\32\61\32\73\110\115\116\97\110\99\101\46\110\101\119\40\34\66\111\100\121\71\121\114\111\34\44\32\99\97\114\46\72\97\110\100\108\101\41\10\32\32\32\32\32\32\32\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\117\110\83\101\114\118\105\99\101\34\41\46\83\116\101\112\112\101\100\58\67\111\110\110\101\99\116\40\102\117\110\99\116\105\111\110\40\41\10\32\32\32\32\32\32\32\32\32\32\66\80\46\77\97\120\70\111\114\99\101\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\41\10\32\32\32\32\32\32\32\32\32\32\66\80\46\80\111\115\105\116\105\111\110\32\61\32\99\104\97\114\91\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\93\46\80\111\115\105\116\105\111\110\32\43\32\86\101\99\116\111\114\51\46\110\101\119\40\53\44\32\49\46\56\44\32\51\41\10\32\32\32\32\32\32\32\32\32\32\66\71\46\77\97\120\84\111\114\113\117\101\32\61\32\86\101\99\116\111\114\51\46\110\101\119\40\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\44\32\109\97\116\104\46\104\117\103\101\41\10\32\32\32\32\32\32\32\32\32\32\66\71\46\67\70\114\97\109\101\32\61\32\99\104\97\114\91\34\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116\34\93\46\67\70\114\97\109\101\10\32\32\32\32\32\32\32\32\101\110\100\41\10\101\110\100\10")()
+end)
+
+UICorner_24.Parent = FEHatsPet
+
+FEHumanCar.Name = "FE Human Car"
+FEHumanCar.Parent = ScriptsTab
+FEHumanCar.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FEHumanCar.Position = UDim2.new(0.585858583, 0, 0.350210965, 0)
+FEHumanCar.Size = UDim2.new(0, 106, 0, 24)
+FEHumanCar.Font = Enum.Font.SourceSans
+FEHumanCar.Text = "FE Human Car"
+FEHumanCar.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEHumanCar.TextSize = 14.000
+FEHumanCar.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/9D3ks2J8"))()
+end)
+
+UICorner_25.Parent = FEHumanCar
+
+FESnake.Name = "FE Snake"
+FESnake.Parent = ScriptsTab
+FESnake.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FESnake.Position = UDim2.new(0.585858583, 0, 0.514767945, 0)
+FESnake.Size = UDim2.new(0, 106, 0, 24)
+FESnake.Font = Enum.Font.SourceSans
+FESnake.Text = "FE Snake"
+FESnake.TextColor3 = Color3.fromRGB(0, 0, 0)
+FESnake.TextSize = 14.000
+FESnake.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NcBzpPwm"))()
+end)
+
+UICorner_26.Parent = FESnake
+
+FEFly.Name = "FE Fly"
+FEFly.Parent = ScriptsTab
+FEFly.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FEFly.Position = UDim2.new(0.0303030014, 0, 0.514767945, 0)
+FEFly.Size = UDim2.new(0, 106, 0, 24)
+FEFly.Font = Enum.Font.SourceSans
+FEFly.Text = "FE Fly"
+FEFly.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEFly.TextSize = 14.000
+FEFly.MouseButton1Down:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+UICorner_27.Parent = FEFly
+
+FEHoldAcc.Name = "FE Hold Acc"
+FEHoldAcc.Parent = ScriptsTab
+FEHoldAcc.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FEHoldAcc.Position = UDim2.new(0.0303030014, 0, 0.666666687, 0)
+FEHoldAcc.Size = UDim2.new(0, 106, 0, 24)
+FEHoldAcc.Font = Enum.Font.SourceSans
+FEHoldAcc.Text = "FE Hold Acc"
+FEHoldAcc.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEHoldAcc.TextSize = 14.000
+FEHoldAcc.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/4pmyQZ3k"))()
+end)
+
+UICorner_28.Parent = FEHoldAcc
+
+HatsV2.Name = "Hats V2"
+HatsV2.Parent = ScriptsTab
+HatsV2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+HatsV2.Position = UDim2.new(0.585858583, 0, 0.666666687, 0)
+HatsV2.Size = UDim2.new(0, 106, 0, 24)
+HatsV2.Font = Enum.Font.SourceSans
+HatsV2.Text = "Hats V2"
+HatsV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+HatsV2.TextSize = 14.000
+HatsV2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xtfYXZ5y"))()
+end)
+
+UICorner_29.Parent = HatsV2
+
+Keyboard.Name = "Keyboard"
+Keyboard.Parent = ScriptsTab
+Keyboard.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Keyboard.Position = UDim2.new(0.0303030312, 0, 0.822784841, 0)
+Keyboard.Size = UDim2.new(0, 271, 0, 24)
+Keyboard.Font = Enum.Font.SourceSans
+Keyboard.Text = "Keyboard"
+Keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Keyboard.TextSize = 14.000
+Keyboard.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+UICorner_30.Parent = Keyboard
+
+AdminTab.Name = "AdminTab"
+AdminTab.Parent = OutLine
+AdminTab.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+AdminTab.Position = UDim2.new(0.24427481, 0, 0.00420168089, 0)
+AdminTab.Size = UDim2.new(0, 297, 0, 237)
+AdminTab.Visible = false
+
+TextLabel_4.Parent = AdminTab
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 297, 0, 35)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Admin"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 25.000
+
+UICorner_31.Parent = TextLabel_4
+
+FatesAdmin.Name = "Fate's Admin"
+FatesAdmin.Parent = AdminTab
+FatesAdmin.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FatesAdmin.Position = UDim2.new(0.0303030312, 0, 0.185654014, 0)
+FatesAdmin.Size = UDim2.new(0, 114, 0, 76)
+FatesAdmin.Font = Enum.Font.SourceSans
+FatesAdmin.Text = "Gx Admin"
+FatesAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+FatesAdmin.TextSize = 14.000
+FatesAdmin.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/v6E9BmFK"))();
+end)
+
+UICorner_32.Parent = FatesAdmin
+
+UICorner_33.Parent = AdminTab
+
+RevisAdmin.Name = "Revis Admin"
+RevisAdmin.Parent = AdminTab
+RevisAdmin.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+RevisAdmin.Position = UDim2.new(0.585858583, 0, 0.185654014, 0)
+RevisAdmin.Size = UDim2.new(0, 106, 0, 76)
+RevisAdmin.Font = Enum.Font.SourceSans
+RevisAdmin.Text = "Revis Admin"
+RevisAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+RevisAdmin.TextSize = 14.000
+RevisAdmin.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8ZWWtfvT"))()
+end)
+
+UICorner_34.Parent = RevisAdmin
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = AdminTab
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+InfiniteYield.Position = UDim2.new(0.0303030312, 0, 0.534291029, 0)
+InfiniteYield.Size = UDim2.new(0, 271, 0, 102)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 31.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+UICorner_35.Parent = InfiniteYield
+
+CreditsTab.Name = "CreditsTab"
+CreditsTab.Parent = OutLine
+CreditsTab.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+CreditsTab.Position = UDim2.new(0.24427481, 0, 0.00420168089, 0)
+CreditsTab.Size = UDim2.new(0, 297, 0, 237)
+CreditsTab.Visible = false
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = CreditsTab
+Credits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.BackgroundTransparency = 1.000
+Credits_2.Size = UDim2.new(0, 297, 0, 35)
+Credits_2.Font = Enum.Font.SourceSans
+Credits_2.Text = "Credits"
+Credits_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits_2.TextSize = 25.000
+
+UICorner_36.Parent = Credits_2
+
+UICorner_37.Parent = CreditsTab
+
+TextLabel_5.Parent = CreditsTab
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.16455698, 0)
+TextLabel_5.Size = UDim2.new(0, 297, 0, 100)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Dark X Hub is made by ItzzJoshua_"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 19.000
+
+UICorner_38.Parent = TextLabel_5
+
+TextLabel_6.Parent = CreditsTab
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.219409302, 0)
+TextLabel_6.Size = UDim2.new(0, 297, 0, 100)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Credits to the Owners of Scripts"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 19.000
+
+UICorner_39.Parent = TextLabel_6
+
+TextLabel_7.Parent = CreditsTab
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, 0.738396645, 0)
+TextLabel_7.Size = UDim2.new(0, 297, 0, 100)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Thanks for using Dark X Hub"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 19.000
+
+UICorner_40.Parent = TextLabel_7
+
+HomeTab.Name = "HomeTab"
+HomeTab.Parent = OutLine
+HomeTab.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+HomeTab.Position = UDim2.new(0.24427481, 0, 0.00420168089, 0)
+HomeTab.Size = UDim2.new(0, 297, 0, 237)
+
+TextLabel_8.Parent = HomeTab
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 297, 0, 35)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Home"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 25.000
+
+UICorner_41.Parent = TextLabel_8
+
+UICorner_42.Parent = HomeTab
+
+TextLabel_9.Parent = HomeTab
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.16455698, 0)
+TextLabel_9.Size = UDim2.new(0, 297, 0, 100)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Hello User , Thanks for using Dark X Hub"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 19.000
+
+UICorner_43.Parent = TextLabel_9
+
+TextLabel_10.Parent = HomeTab
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.101265825, 0)
+TextLabel_10.Size = UDim2.new(0, 297, 0, 100)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Welcome To Dark X Hub"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 19.000
+
+UICorner_44.Parent = TextLabel_10
+
+TextLabel_11.Parent = HomeTab
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0, 0, 0.44725737, 0)
+TextLabel_11.Size = UDim2.new(0, 297, 0, 100)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Go To Credits Tab To see the Owner of this HUB"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 33.000
+TextLabel_11.TextWrapped = true
+
+UICorner_45.Parent = TextLabel_11
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Close.BorderColor3 = Color3.fromRGB(38, 38, 38)
+Close.BorderSizePixel = 3
+Close.Position = UDim2.new(0.950471699, 0, -0.0643939376, 0)
+Close.Size = UDim2.new(0, 47, 0, 41)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 55.000
+Close.MouseButton1Click:Connect(function()
+	Open.Visible = true
+	Main.Visible = false
+end)
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Open.BorderColor3 = Color3.fromRGB(38, 38, 38)
+Open.BorderSizePixel = 3
+Open.Position = UDim2.new(0.856321335, 0, 0.427166343, 0)
+Open.Size = UDim2.new(0, 87, 0, 34)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "OPEN"
+Open.TextColor3 = Color3.fromRGB(75, 75, 75)
+Open.TextSize = 33.000
+Open.MouseButton1Click:Connect(function()
+	Main.Visible = true
+	Open.Visible = false
+end)
